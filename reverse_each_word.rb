@@ -1,7 +1,7 @@
 sentence = "Hello there, and how are you?"
 
 def reverse_each_word(sentence)
-  (sentence.split).each do |words|
+  sentence.reverse.split).each do |words|
   puts words.reverse
   end
   sentence
